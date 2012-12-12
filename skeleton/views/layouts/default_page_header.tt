@@ -1,0 +1,5 @@
+<meta http-equiv="Content-type" content="text/html; charset=[% settings.charset %]" />
+<title>[% page.title %]</title>
+<link rel="stylesheet" href="[% request.uri_base %]/css/bootstrap.min.css" />
+<link rel="stylesheet" href="[% request.uri_base %]/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="[% request.uri_base %]/css/font-awesome.css" />
