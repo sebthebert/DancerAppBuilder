@@ -1,5 +1,13 @@
-use Test::More tests => 1;
+#!/usr/bin/perl
+
 use strict;
 use warnings;
 
-use_ok 'Skel';
+use FindBin;
+use Test::More;
+
+use lib "$FindBin::Bin/../lib/";
+
+use_ok 'Web';
+
+done_testing(1);

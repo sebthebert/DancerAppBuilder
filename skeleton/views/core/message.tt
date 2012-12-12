@@ -1,0 +1,4 @@
+<div class="alert alert-[% level || 'info' %]">
+<button type="button" class="close" data-dismiss="alert">&times;</button>
+<i class="icon-[% level || 'info' %]-sign icon-large"></i> [% msg %]
+</div>

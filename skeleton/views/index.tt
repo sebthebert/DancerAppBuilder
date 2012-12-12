@@ -1,148 +1,127 @@
-  
-<!-- 
-    Credit goes to the Ruby on Rails team for this page 
-    has been heavily based on the default Rails page that is 
-    built with a scaffolded application.
+<h1>Documentation</h1>
 
-    Thanks a lot to them for their work.
-
-    See Ruby on Rails if you want a kickass framework in Ruby:
-    http://www.rubyonrails.org/
--->
-
-<div id="page">
-      <div id="sidebar">
-        <ul id="sidebar-items">
-          <li>
-            <h3>Join the community</h3>
-            <ul class="links">
-
-              <li><a href="http://perldancer.org/">PerlDancer</a></li>
-              <li><a href="http://twitter.com/PerlDancer/">Official Twitter</a></li>
-              <li><a href="http://github.com/sukria/Dancer/">GitHub Community</a></li>
-            </ul>
-          </li>
-          
-          <li>
-            <h3>Browse the documentation</h3>
-
-            <ul class="links">
-              <li><a
-              href="http://search.cpan.org/dist/Dancer/lib/Dancer/Introduction.pod">Introduction</a></li>
-              <li><a href="http://search.cpan.org/dist/Dancer/lib/Dancer/Cookbook.pod">Cookbook</a></li>
-              <li><a href="http://search.cpan.org/dist/Dancer/lib/Dancer/Deployment.pod">Deployment Guide</a></li>
-              <li><a
-              href="http://search.cpan.org/dist/Dancer/lib/Dancer/Tutorial.pod"
-              title="a tutorial to build a small blog engine with Dancer">Tutorial</a></li>
-            </ul>
-          </li>
-
-          <li>
-            <h3>Your application's environment</h3>
-
-            <ul>
-                <li>Location: <code>/Users/seb/Documents/workspace/GitHub/DancerAppBuilder/Skel</code></li>
-                <li>Template engine: <code><% settings.template %></code></li>
-                <li>Logger: <code><% settings.logger %></code></li>
-                <li>Environment: <code><% settings.environment %></code></li>
-            </ul>
-
-          </li>
-        </ul>
-
-      </div>
-
-      <div id="content">
-        <div id="header">
-          <h1>Perl is dancing</h1>
-          <h2>You&rsquo;ve joined the dance floor!</h2>
-        </div>
-
-        <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get dancing:</h2>
-                    
-          <h3><a href="#" id="about_env_link">About your application's environment</a></h3>
-
-          <div id="about-content" style="display: none;">
-            <table>
-                <tbody>
-                <tr>
-                    <td>Perl version</td>
-                    <td><tt><% perl_version %></tt></td>
-                </tr>
-                <tr>
-                    <td>Dancer version</td>
-                    <td><tt><% dancer_version %></tt></td>
-                </tr>
-                <tr>
-                    <td>Backend</td>
-                    <td><tt><% settings.apphandler %></tt></td>
-                </tr>
-                <tr>
-                    <td>Appdir</td>
-                    <td><tt>/Users/seb/Documents/workspace/GitHub/DancerAppBuilder/Skel</tt></td>
-                </tr>
-                <tr>
-                    <td>Template engine</td>
-                    <td><tt><% settings.template %></tt></td>
-                </tr>
-                <tr>
-                    <td>Logger engine</td>
-                    <td><tt><% settings.logger %></tt></td>
-                </tr>
-                <tr>
-                    <td>Running environment</td>
-                    <td><tt><% settings.environment %></tt></td>
-                </tr>
-                </tbody>
-            </table>
-          </div>
-
-    <script type="text/javascript">
-    $('#about_env_link').click(function() {
-        $('#about-content').slideToggle('fast', function() {
-            // ok
-        });
-        return( false );
-    });
-    </script>
+<h2>Homepage</h2>
+[% INCLUDE 'core/homepage.tt' %]
 
 
-          <ol>          
-            <li>
-              <h2>Tune your application</h2>
+<h2>Forms</h2>
 
-              <p>
-              Your application is configured via a global configuration file,
-              <tt>config.yml</tt> and an "environment" configuration file,
-              <tt>environments/development.yml</tt>. Edit those files if you
-              want to change the settings of your application.
-              </p>
-            </li>
+<h3>Input Account</h3>
 
-            <li>
-              <h2>Add your own routes</h2>
+<h4>Facebook - <i class="icon-facebook"></i></h4>
+<pre>
+INCLUDE 'core/form/input_account_facebook.tt'
+</pre>
+[% INCLUDE 'core/form/input_account_facebook.tt' %]
 
-              <p>
-              The default route that displays this page can be removed,
-              it's just here to help you get started. The template used to
-              generate this content is located in 
-              <code>views/index.tt</code>.
-              You can add some routes to <tt>lib/Skel.pm</tt>. 
-              </p>
-            </li>
+<h4>GitHub - <i class="icon-github"></i></h4>
+<pre>
+INCLUDE 'core/form/input_account_github.tt'
+</pre>
+[% INCLUDE 'core/form/input_account_github.tt' %]
 
-            <li>
-                <h2>Enjoy web development again</h2>
+<h4>Google+ - <i class="icon-google-plus"></i></h4>
+<pre>
+INCLUDE 'core/form/input_account_googleplus.tt'
+</pre>
+[% INCLUDE 'core/form/input_account_googleplus.tt' %]
 
-                <p>
-                Once you've made your changes, restart your standalone server
-                (bin/app.pl) and you're ready to test your web application.
-                </p>
-            </li>
+<h4>LinkedIn - <i class="icon-linkedin"></i></h4>
+<pre>
+INCLUDE 'core/form/input_account_linkedin.tt'
+</pre>
+[% INCLUDE 'core/form/input_account_linkedin.tt' %]
 
-          </ol>
-        </div>
-      </div>
-    </div>
+<h4>Pinterest - <i class="icon-pinterest"></i></h4>
+<pre>
+INCLUDE 'core/form/input_account_pinterest.tt'
+</pre>
+[% INCLUDE 'core/form/input_account_pinterest.tt' %]
+
+<h4>Twitter - <i class="icon-twitter"></i></h4>
+<pre>
+INCLUDE 'core/form/input_account_twitter.tt'
+</pre>
+[% INCLUDE 'core/form/input_account_twitter.tt' %]
+
+
+<hr>
+<h3>Input Email</h3>
+
+<pre>
+INCLUDE 'core/form/input_email.tt'
+</pre>
+[% INCLUDE 'core/form/input_email.tt' %]
+
+<pre>
+INCLUDE 'core/form/input_email.tt' email='john.doe@perl.org'
+</pre>
+[% INCLUDE 'core/form/input_email.tt' email='john.doe@perl.org' %]
+
+
+<hr>
+<h3>Input Password</h3>
+
+<pre>
+INCLUDE 'core/form/input_password.tt'
+</pre>
+[% INCLUDE 'core/form/input_password.tt' %]
+
+<pre>
+INCLUDE 'core/form/input_password.tt' password='azerty'
+</pre>
+[% INCLUDE 'core/form/input_password.tt' password='azerty' %]
+
+
+<hr>
+<h3>Input Phone</h3>
+
+<pre>
+INCLUDE 'core/form/input_phone.tt'
+</pre>
+[% INCLUDE 'core/form/input_phone.tt' %]
+
+<pre>
+INCLUDE 'core/form/input_phone.tt' phone='+33 6 01 02 03 04'
+</pre>
+[% INCLUDE 'core/form/input_phone.tt' phone='+33 6 01 02 03 04' %]
+
+
+<hr>
+<h3>Select Country</h3>
+<pre>
+INCLUDE 'core/form/select_country.tt'
+</pre>
+[% INCLUDE 'core/form/select_country.tt' %]
+
+
+<hr>
+<h3>Select Language</h3>
+<pre>
+INCLUDE 'core/form/select_language.tt'
+</pre>
+[% INCLUDE 'core/form/select_language.tt' %]
+
+
+<hr>
+<h2>Messages</h2>
+
+<pre>
+INCLUDE 'core/message.tt' level='error' msg='This is a message level error'
+</pre>
+[% INCLUDE 'core/message.tt' level='error' msg='This is a message level error' %]
+
+<pre>
+INCLUDE 'core/message.tt' level='warning' msg='This is a message level warning'
+</pre>
+[% INCLUDE 'core/message.tt' level='warning' msg='This is a message level warning' %]
+
+<pre>
+INCLUDE 'core/message.tt' level='success' msg='This is a message level success'
+</pre>
+[% INCLUDE 'core/message.tt' level='success' msg='This is a message level success' %]
+
+<pre>
+INCLUDE 'core/message.tt' msg='If no level is specified, it takes "info" by default'
+</pre>
+[% INCLUDE 'core/message.tt' msg='If no level is specified, it takes "info" by default' %]

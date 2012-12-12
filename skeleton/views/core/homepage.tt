@@ -1,0 +1,25 @@
+[% items = [
+	{ icon => 'envelope-alt', link => '/mail' },
+	{ icon => 'comments', link => '/chat' },
+	{ icon => 'calendar', link => '/calendar' },
+	{ icon => 'user', link => '/contact' },
+	{ icon => 'check', link => '/task' },
+	{ icon => 'book', link => '/documentation' },
+	{ icon => 'bell', link => '/alert' },
+	{ icon => 'dashboard', link => '/dashboard' },
+	]
+size = 256;
+%]
+<div align="center">
+<table border="1">
+<tr>
+[% FOREACH i IN items %]
+<td width="[% size %]" height="[% size %]">
+<div style="font-size: [% size %]px;">
+	<a href="[% i.link %]"><i class="icon-[% i.icon %]"></i></a>
+</div>
+</td>
+[% END %]
+</tr>
+</table>
+</div>
