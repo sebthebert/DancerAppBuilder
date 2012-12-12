@@ -1,0 +1,744 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "country_ad"
+msgstr "Andorra"
+
+msgid "country_ae"
+msgstr "Egyesült Arab Emírségek"
+
+msgid "country_af"
+msgstr "Afganisztán"
+
+msgid "country_ag"
+msgstr "Antigua és Barbuda"
+
+msgid "country_ai"
+msgstr "Anguilla"
+
+msgid "country_al"
+msgstr "Albánia"
+
+msgid "country_am"
+msgstr "Örményország"
+
+msgid "country_an"
+msgstr "Holland Antillák"
+
+msgid "country_ao"
+msgstr "Angola"
+
+msgid "country_aq"
+msgstr "Antarktisz"
+
+msgid "country_ar"
+msgstr "Argentína"
+
+msgid "country_as"
+msgstr "Amerikai-Szamoa"
+
+msgid "country_at"
+msgstr "Ausztria"
+
+msgid "country_au"
+msgstr "Ausztrália"
+
+msgid "country_aw"
+msgstr "Aruba"
+
+msgid "country_ax"
+msgstr "Åland"
+
+msgid "country_az"
+msgstr "Azerbajdzsán"
+
+msgid "country_ba"
+msgstr "Bosznia-Hercegovina"
+
+msgid "country_bb"
+msgstr "Barbados"
+
+msgid "country_bd"
+msgstr "Banglades"
+
+msgid "country_be"
+msgstr "Belgium"
+
+msgid "country_bf"
+msgstr "Burkina Faso"
+
+msgid "country_bg"
+msgstr "Bulgária"
+
+msgid "country_bh"
+msgstr "Bahrein"
+
+msgid "country_bi"
+msgstr "Burundi"
+
+msgid "country_bj"
+msgstr "Benin"
+
+msgid "country_bl"
+msgstr "Saint Barthélemy"
+
+msgid "country_bm"
+msgstr "Bermuda"
+
+msgid "country_bn"
+msgstr "Brunei"
+
+msgid "country_bo"
+msgstr "Bolívia"
+
+msgid "country_br"
+msgstr "Brazília"
+
+msgid "country_bs"
+msgstr "Bahama-szigetek"
+
+msgid "country_bt"
+msgstr "Bhután"
+
+msgid "country_bv"
+msgstr "Bouvet-sziget"
+
+msgid "country_bw"
+msgstr "Botswana"
+
+msgid "country_by"
+msgstr "Belarusz"
+
+msgid "country_bz"
+msgstr "Belize"
+
+msgid "country_ca"
+msgstr "Kanada"
+
+msgid "country_cc"
+msgstr "Kókusz (Keeling)-szigetek"
+
+msgid "country_cd"
+msgstr "Kongói Demokratikus Köztársaság"
+
+msgid "country_cf"
+msgstr "Közép-afrikai Köztársaság"
+
+msgid "country_cg"
+msgstr "Kongói Köztársaság"
+
+msgid "country_ch"
+msgstr "Svájc"
+
+msgid "country_ci"
+msgstr "Elefántcsontpart"
+
+msgid "country_ck"
+msgstr "Cook-szigetek"
+
+msgid "country_cl"
+msgstr "Chile"
+
+msgid "country_cm"
+msgstr "Kamerun"
+
+msgid "country_cn"
+msgstr "Kína"
+
+msgid "country_co"
+msgstr "Kolumbia"
+
+msgid "country_cr"
+msgstr "Costa Rica"
+
+msgid "country_cu"
+msgstr "Kuba"
+
+msgid "country_cv"
+msgstr "Zöld-foki Köztársaság"
+
+msgid "country_cx"
+msgstr "Karácsony-sziget"
+
+msgid "country_cy"
+msgstr "Ciprus"
+
+msgid "country_cz"
+msgstr "Csehország"
+
+msgid "country_de"
+msgstr "Németország"
+
+msgid "country_dj"
+msgstr "Dzsibuti"
+
+msgid "country_dk"
+msgstr "Dánia"
+
+msgid "country_dm"
+msgstr "Dominikai Közösség"
+
+msgid "country_do"
+msgstr "Dominikai Köztársaság"
+
+msgid "country_dz"
+msgstr "Algéria"
+
+msgid "country_ec"
+msgstr "Ecuador"
+
+msgid "country_ee"
+msgstr "Észtország"
+
+msgid "country_eg"
+msgstr "Egyiptom"
+
+msgid "country_eh"
+msgstr "Nyugat-Szahara"
+
+msgid "country_er"
+msgstr "Eritrea"
+
+msgid "country_es"
+msgstr "Spanyolország"
+
+msgid "country_et"
+msgstr "Etiópia"
+
+msgid "country_fi"
+msgstr "Finnország"
+
+msgid "country_fj"
+msgstr "Fidzsi-szigetek"
+
+msgid "country_fk"
+msgstr "Falkland-szigetek"
+
+msgid "country_fm"
+msgstr "Mikronézia"
+
+msgid "country_fo"
+msgstr "Feröer"
+
+msgid "country_fr"
+msgstr "Franciaország"
+
+msgid "country_ga"
+msgstr "Gabon"
+
+msgid "country_gb"
+msgstr "Nagy-Britannia"
+
+msgid "country_gd"
+msgstr "Grenada"
+
+msgid "country_ge"
+msgstr "Grúzia"
+
+msgid "country_gf"
+msgstr "Francia Guyana"
+
+msgid "country_gg"
+msgstr "Guernsey"
+
+msgid "country_gh"
+msgstr "Ghána"
+
+msgid "country_gi"
+msgstr "Gibraltár"
+
+msgid "country_gl"
+msgstr "Grönland"
+
+msgid "country_gm"
+msgstr "Gambia"
+
+msgid "country_gn"
+msgstr "Guinea"
+
+msgid "country_gp"
+msgstr "Guadeloupe"
+
+msgid "country_gq"
+msgstr "Egyenlítői-Guinea"
+
+msgid "country_gr"
+msgstr "Görögország"
+
+msgid "country_gs"
+msgstr "Dél-Georgia és Déli-Sandwich-szigetek"
+
+msgid "country_gt"
+msgstr "Guatemala"
+
+msgid "country_gu"
+msgstr "Guam"
+
+msgid "country_gw"
+msgstr "Bissau-Guinea"
+
+msgid "country_gy"
+msgstr "Guyana"
+
+msgid "country_hk"
+msgstr "Hongkong"
+
+msgid "country_hm"
+msgstr "Heard-sziget és McDonald-szigetek"
+
+msgid "country_hn"
+msgstr "Honduras"
+
+msgid "country_hr"
+msgstr "Horvátország"
+
+msgid "country_ht"
+msgstr "Haiti"
+
+msgid "country_hu"
+msgstr "Magyarország"
+
+msgid "country_id"
+msgstr "Indonézia"
+
+msgid "country_ie"
+msgstr "Írország"
+
+msgid "country_il"
+msgstr "Izrael"
+
+msgid "country_im"
+msgstr "Man-sziget"
+
+msgid "country_in"
+msgstr "India"
+
+msgid "country_io"
+msgstr "Brit Indiai-óceáni terület"
+
+msgid "country_iq"
+msgstr "Irak"
+
+msgid "country_ir"
+msgstr "Irán"
+
+msgid "country_is"
+msgstr "Izland"
+
+msgid "country_it"
+msgstr "Olaszország"
+
+msgid "country_je"
+msgstr "Jersey"
+
+msgid "country_jm"
+msgstr "Jamaica"
+
+msgid "country_jo"
+msgstr "Jordánia"
+
+msgid "country_jp"
+msgstr "Japán"
+
+msgid "country_ke"
+msgstr "Kenya"
+
+msgid "country_kg"
+msgstr "Kirgizisztán"
+
+msgid "country_kh"
+msgstr "Kambodzsa"
+
+msgid "country_ki"
+msgstr "Kiribati"
+
+msgid "country_km"
+msgstr "Comore-szigetek"
+
+msgid "country_kn"
+msgstr "Saint Kitts és Nevis"
+
+msgid "country_kp"
+msgstr "Koreai Népi Demokratikus Köztársaság"
+
+msgid "country_kr"
+msgstr "Koreai Köztársaság"
+
+msgid "country_kw"
+msgstr "Kuvait"
+
+msgid "country_ky"
+msgstr "Kajmán-szigetek"
+
+msgid "country_kz"
+msgstr "Kazahsztán"
+
+msgid "country_la"
+msgstr "Laosz"
+
+msgid "country_lb"
+msgstr "Libanon"
+
+msgid "country_lc"
+msgstr "Saint Lucia"
+
+msgid "country_li"
+msgstr "Liechtenstein"
+
+msgid "country_lk"
+msgstr "Srí Lanka"
+
+msgid "country_lr"
+msgstr "Libéria"
+
+msgid "country_ls"
+msgstr "Lesotho"
+
+msgid "country_lt"
+msgstr "Litvánia"
+
+msgid "country_lu"
+msgstr "Luxemburg"
+
+msgid "country_lv"
+msgstr "Lettország"
+
+msgid "country_ly"
+msgstr "Líbia"
+
+msgid "country_ma"
+msgstr "Marokkó"
+
+msgid "country_mc"
+msgstr "Monaco"
+
+msgid "country_md"
+msgstr "Moldova"
+
+msgid "country_me"
+msgstr "Montenegró"
+
+msgid "country_mf"
+msgstr "Saint Martin"
+
+msgid "country_mg"
+msgstr "Madagaszkár"
+
+msgid "country_mh"
+msgstr "Marshall-szigetek"
+
+msgid "country_mk"
+msgstr "Macedónia"
+
+msgid "country_ml"
+msgstr "Mali"
+
+msgid "country_mm"
+msgstr "Mianmar"
+
+msgid "country_mn"
+msgstr "Mongólia"
+
+msgid "country_mo"
+msgstr "Makao"
+
+msgid "country_mp"
+msgstr "Északi-Mariana-szigetek"
+
+msgid "country_mq"
+msgstr "Martinique"
+
+msgid "country_mr"
+msgstr "Mauritánia"
+
+msgid "country_ms"
+msgstr "Montserrat"
+
+msgid "country_mt"
+msgstr "Málta"
+
+msgid "country_mu"
+msgstr "Mauritius"
+
+msgid "country_mv"
+msgstr "Maldív-szigetek"
+
+msgid "country_mw"
+msgstr "Malawi"
+
+msgid "country_mx"
+msgstr "Mexikó"
+
+msgid "country_my"
+msgstr "Malajzia"
+
+msgid "country_mz"
+msgstr "Mozambik"
+
+msgid "country_na"
+msgstr "Namíbia"
+
+msgid "country_nc"
+msgstr "Új-Kaledónia"
+
+msgid "country_ne"
+msgstr "Niger"
+
+msgid "country_nf"
+msgstr "Norfolk-sziget"
+
+msgid "country_ng"
+msgstr "Nigéria"
+
+msgid "country_ni"
+msgstr "Nicaragua"
+
+msgid "country_nl"
+msgstr "Hollandia"
+
+msgid "country_no"
+msgstr "Norvégia"
+
+msgid "country_np"
+msgstr "Nepál"
+
+msgid "country_nr"
+msgstr "Nauru"
+
+msgid "country_nu"
+msgstr "Niue"
+
+msgid "country_nz"
+msgstr "Új-Zéland"
+
+msgid "country_om"
+msgstr "Omán"
+
+msgid "country_pa"
+msgstr "Panama"
+
+msgid "country_pe"
+msgstr "Peru"
+
+msgid "country_pf"
+msgstr "Francia Polinézia"
+
+msgid "country_pg"
+msgstr "Pápua Új-Guinea"
+
+msgid "country_ph"
+msgstr "Fülöp-szigetek"
+
+msgid "country_pk"
+msgstr "Pakisztán"
+
+msgid "country_pl"
+msgstr "Lengyelország"
+
+msgid "country_pm"
+msgstr "Saint Pierre és Miquelon"
+
+msgid "country_pn"
+msgstr "Pitcairn-szigetek"
+
+msgid "country_pr"
+msgstr "Puerto Rico"
+
+msgid "country_ps"
+msgstr "Palesztina"
+
+msgid "country_pt"
+msgstr "Portugália"
+
+msgid "country_pw"
+msgstr "Palau"
+
+msgid "country_py"
+msgstr "Paraguay"
+
+msgid "country_qa"
+msgstr "Katar"
+
+msgid "country_re"
+msgstr "Réunion"
+
+msgid "country_ro"
+msgstr "Románia"
+
+msgid "country_rs"
+msgstr "Szerbia"
+
+msgid "country_ru"
+msgstr "Oroszország"
+
+msgid "country_rw"
+msgstr "Ruanda"
+
+msgid "country_sa"
+msgstr "Szaúd-Arábia"
+
+msgid "country_sb"
+msgstr "Salamon-szigetek"
+
+msgid "country_sc"
+msgstr "Seychelle-szigetek"
+
+msgid "country_sd"
+msgstr "Szudán"
+
+msgid "country_se"
+msgstr "Svédország"
+
+msgid "country_sg"
+msgstr "Szingapúr"
+
+msgid "country_sh"
+msgstr "Szent Ilona"
+
+msgid "country_si"
+msgstr "Szlovénia"
+
+msgid "country_sj"
+msgstr "SvalbardJan Mayen"
+
+msgid "country_sk"
+msgstr "Szlovákia"
+
+msgid "country_sl"
+msgstr "Sierra Leone"
+
+msgid "country_sm"
+msgstr "San Marino"
+
+msgid "country_sn"
+msgstr "Szenegál"
+
+msgid "country_so"
+msgstr "Szomália"
+
+msgid "country_sr"
+msgstr "Suriname"
+
+msgid "country_st"
+msgstr "São Tomé és Príncipe"
+
+msgid "country_sv"
+msgstr "El Salvador"
+
+msgid "country_sy"
+msgstr "Szíria"
+
+msgid "country_sz"
+msgstr "Szváziföld"
+
+msgid "country_tc"
+msgstr "Turks- és Caicos-szigetek"
+
+msgid "country_td"
+msgstr "Csád"
+
+msgid "country_tf"
+msgstr "Francia déli és antarktiszi területek"
+
+msgid "country_tg"
+msgstr "Togo"
+
+msgid "country_th"
+msgstr "Thaiföld"
+
+msgid "country_tj"
+msgstr "Tádzsikisztán"
+
+msgid "country_tk"
+msgstr "Tokelau"
+
+msgid "country_tl"
+msgstr "Kelet-Timor"
+
+msgid "country_tm"
+msgstr "Türkménisztán"
+
+msgid "country_tn"
+msgstr "Tunézia"
+
+msgid "country_to"
+msgstr "Tonga"
+
+msgid "country_tr"
+msgstr "Törökország"
+
+msgid "country_tt"
+msgstr "Trinidad és Tobago"
+
+msgid "country_tv"
+msgstr "Tuvalu"
+
+msgid "country_tw"
+msgstr "Tajvan"
+
+msgid "country_tz"
+msgstr "Tanzánia"
+
+msgid "country_ua"
+msgstr "Ukrajna"
+
+msgid "country_ug"
+msgstr "Uganda"
+
+msgid "country_um"
+msgstr "Amerikai Csendes-óceáni szigetek"
+
+msgid "country_us"
+msgstr "Amerikai Egyesült Államok"
+
+msgid "country_uy"
+msgstr "Uruguay"
+
+msgid "country_uz"
+msgstr "Üzbegisztán"
+
+msgid "country_va"
+msgstr "Vatikán"
+
+msgid "country_vc"
+msgstr "Saint Vincent és Grenadine-szigetek"
+
+msgid "country_ve"
+msgstr "Venezuela"
+
+msgid "country_vg"
+msgstr "Brit Virgin-szigetek"
+
+msgid "country_vi"
+msgstr "Amerikai Virgin-szigetek"
+
+msgid "country_vn"
+msgstr "Vietnam"
+
+msgid "country_vu"
+msgstr "Vanuatu"
+
+msgid "country_wf"
+msgstr "Wallis és Futuna"
+
+msgid "country_ws"
+msgstr "Szamoa"
+
+msgid "country_ye"
+msgstr "Jemen"
+
+msgid "country_yt"
+msgstr "Mayotte"
+
+msgid "country_za"
+msgstr "Dél-afrikai Köztársaság"
+
+msgid "country_zm"
+msgstr "Zambia"
+
+msgid "country_zw"
+msgstr "Zimbabwe"
+
