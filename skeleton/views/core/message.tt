@@ -1,6 +1,4 @@
-[% DEFAULT
-    level = 'info'
-%]
+[% DEFAULT level = 'info' %]
 <div class="alert alert-[% level %]">
 <button type="button" class="close" data-dismiss="alert">&times;</button>
 [% IF level == 'info' %]

@@ -1,4 +1,5 @@
+[% DEFAULT id='input_account_github' %]
 <div class="input-prepend">
 <span class="add-on"><i class="icon-github"></i></span>
-<input id="input_account_github" type="entry" class="span3" placeholder="Github Account" value="[% github %]">
+<input id="[% id %]" type="entry" class="span3" placeholder="Github Account" value="[% github %]">
 </div>

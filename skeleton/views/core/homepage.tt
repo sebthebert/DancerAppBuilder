@@ -1,15 +1,3 @@
-[% items = [
-	{ icon => 'envelope-alt', link => '/mail' },
-	{ icon => 'comments', link => '/chat' },
-	{ icon => 'calendar', link => '/calendar' },
-	{ icon => 'user', link => '/contact' },
-	{ icon => 'check', link => '/task' },
-	{ icon => 'book', link => '/documentation' },
-	{ icon => 'bell', link => '/alert' },
-	{ icon => 'dashboard', link => '/dashboard' },
-	]
-size = 256;
-%]
 <div align="center">
 <table border="1">
 <tr>

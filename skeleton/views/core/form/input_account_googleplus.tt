@@ -1,4 +1,5 @@
+[% DEFAULT id='input_account_googleplus' %]
 <div class="input-prepend">
 <span class="add-on"><i class="icon-google-plus"></i></span>
-<input id="input_account_googleplus" type="entry" class="span3" placeholder="Google+ Account" value="[% googleplus %]">
+<input id="[% id %]" type="entry" class="span3" placeholder="Google+ Account" value="[% googleplus %]">
 </div>

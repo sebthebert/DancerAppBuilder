@@ -1,6 +1,18 @@
 <h1>Documentation</h1>
 
 <h2>Homepage</h2>
+[% items = [
+	{ icon => 'envelope-alt', link => '/mail' },
+	{ icon => 'comments', link => '/chat' },
+	{ icon => 'calendar', link => '/calendar' },
+	{ icon => 'user', link => '/contact' },
+	{ icon => 'check', link => '/task' },
+	{ icon => 'book', link => '/documentation' },
+	{ icon => 'bell', link => '/alert' },
+	{ icon => 'dashboard', link => '/dashboard' },
+	]
+size = 256;
+%]
 [% INCLUDE 'core/homepage.tt' %]
 
 
@@ -54,9 +66,9 @@ INCLUDE 'core/form/input_email.tt'
 [% INCLUDE 'core/form/input_email.tt' %]
 
 <pre>
-INCLUDE 'core/form/input_email.tt' email='john.doe@perl.org'
+INCLUDE 'core/form/input_email.tt' placeholder='Email address 2' email='john.doe@perl.org'
 </pre>
-[% INCLUDE 'core/form/input_email.tt' email='john.doe@perl.org' %]
+[% INCLUDE 'core/form/input_email.tt' placeholder='Email address 2' email='john.doe@perl.org' %]
 
 
 <hr>
@@ -68,9 +80,9 @@ INCLUDE 'core/form/input_password.tt'
 [% INCLUDE 'core/form/input_password.tt' %]
 
 <pre>
-INCLUDE 'core/form/input_password.tt' password='azerty'
+INCLUDE 'core/form/input_password.tt' placeholder='Password2' password='azerty'
 </pre>
-[% INCLUDE 'core/form/input_password.tt' password='azerty' %]
+[% INCLUDE 'core/form/input_password.tt' placeholder='Password2' password='azerty' %]
 
 
 <hr>
@@ -82,9 +94,9 @@ INCLUDE 'core/form/input_phone.tt'
 [% INCLUDE 'core/form/input_phone.tt' %]
 
 <pre>
-INCLUDE 'core/form/input_phone.tt' phone='+33 6 01 02 03 04'
+INCLUDE 'core/form/input_phone.tt' id='input_phone2' placeholder='Phone number2' phone='+33 6 01 02 03 04'
 </pre>
-[% INCLUDE 'core/form/input_phone.tt' phone='+33 6 01 02 03 04' %]
+[% INCLUDE 'core/form/input_phone.tt' id='input_phone2' placeholder='Phone number2' phone='+33 6 01 02 03 04' %]
 
 
 <hr>
@@ -96,9 +108,9 @@ INCLUDE 'core/form/input_port.tt'
 [% INCLUDE 'core/form/input_port.tt' %]
 
 <pre>
-INCLUDE 'core/form/input_port.tt' port='12345'
+INCLUDE 'core/form/input_port.tt' id='input_port2' placeholder='Port2' port='12345'
 </pre>
-[% INCLUDE 'core/form/input_port.tt' port='12345' %]
+[% INCLUDE 'core/form/input_port.tt' id='input_port2' placeholder='Port2' port='12345' %]
 
 
 <hr>

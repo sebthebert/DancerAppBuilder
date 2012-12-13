@@ -1,4 +1,5 @@
+[% DEFAULT id='input_account_linkedin' %]
 <div class="input-prepend">
 <span class="add-on"><i class="icon-linkedin"></i></span>
-<input id="input_account_linkedin" type="entry" class="span3" placeholder="Linked In Account" value="[% linkedin %]">
+<input id="[% id %]" type="entry" class="span3" placeholder="Linked In Account" value="[% linkedin %]">
 </div>
