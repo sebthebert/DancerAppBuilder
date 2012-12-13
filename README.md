@@ -1,6 +1,8 @@
 # DancerAppBuilder
 
-Builds a Dancer Application.
+Builds a Dancer Application with:
+  * Bootstrap - http://twitter.github.com/bootstrap/
+  * Font Awesome - http://fortawesome.github.com/Font-Awesome
 
 The template engine configured will be Template Toolkit.
 
@@ -45,10 +47,12 @@ views/core/form/input_account_twitter.tt
 views/core/form/input_email.tt
 views/core/form/input_password.tt
 views/core/form/input_phone.tt
+views/core/form/input_port.tt
 views/core/form/select_country.tt
 views/core/form/select_language.tt
 views/core/homepage.tt
 views/core/message.tt
+views/core/navigation.tt
 views/index.tt
 views/layouts/default_page.tt
 views/layouts/default_page_footer.tt

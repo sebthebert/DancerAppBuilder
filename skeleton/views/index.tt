@@ -139,3 +139,25 @@ INCLUDE 'core/message.tt' level='success' msg='This is a message level success'
 INCLUDE 'core/message.tt' msg='If no level is specified, it takes "info" by default'
 </pre>
 [% INCLUDE 'core/message.tt' msg='If no level is specified, it takes "info" by default' %]
+
+
+<hr>
+<h2>Navigation</h2>
+
+<pre>
+items = [
+    { label => 'Home', icon => 'home', link => '/' },
+    { label => 'Documentation', icon => 'book', link => '/documentation' },
+    ]
+</pre>
+<pre>
+INCLUDE 'core/navigation.tt'
+</pre>
+[% 
+items = [
+    { label => 'Home', icon => 'home', link => '/' },
+    { label => 'Documentation', icon => 'book', link => '/documentation' },
+    { label => 'Settings', icon => 'cogs', link => '/settings' },
+    ]
+%] 
+[% INCLUDE 'core/navigation.tt' %]

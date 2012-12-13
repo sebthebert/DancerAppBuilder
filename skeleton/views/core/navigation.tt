@@ -1,0 +1,7 @@
+<div class="span3">
+<ul class="nav nav-list">
+[% FOREACH i IN items %]
+    <li><a href="[% i.link %]"><i class="icon-[% i.icon %]"></i> [% i.label %]</a></li>
+[% END %]
+</ul>
+</div>
