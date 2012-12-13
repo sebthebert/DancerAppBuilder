@@ -1,4 +1,14 @@
-<div class="alert alert-[% level || 'info' %]">
+[% DEFAULT
+    level = 'info'
+%]
+<div class="alert alert-[% level %]">
 <button type="button" class="close" data-dismiss="alert">&times;</button>
-<i class="icon-[% level || 'info' %]-sign icon-large"></i> [% msg %]
+[% IF level == 'info' %]
+    <i class="icon-info-sign icon-large"></i> 
+[% ELSIF level == 'success' %]
+    <i class="icon-ok-sign icon-large"></i> 
+[% ELSE %]
+    <i class="icon-warning-sign icon-large"></i> 
+[% END %]
+[% msg %]
 </div>
