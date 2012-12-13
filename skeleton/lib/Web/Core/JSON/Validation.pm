@@ -70,6 +70,22 @@ get '/phone/:phone' => sub
 	return ( { level => 'success', msg => 'Valid phone number' } );
 };
 
+=head2 GET /JSON/validation/port/:port
+
+=cut
+
+get '/port/:port' => sub
+{
+    my $port = params->{'port'};
+   
+    if (($port =~ /^\d+$/) && ($port >= 0) && ($port <= 65535))
+    {
+        return ( { level => 'success', msg => 'Valid port number !' } );
+    }
+
+    return ( { level => 'error', msg => 'Invalid port number ! (should be between 0 and 65535)' } );
+};
+
 1;
 
 =head1 AUTHOR

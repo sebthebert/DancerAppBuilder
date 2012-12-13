@@ -1,0 +1,20 @@
+<div id="input_port_error_level" class="control-group">
+<div class="controls">
+<input id="input_port" type="entry" class="span1" placeholder="Port" value="[% port %]">
+<span id="input_port_error_msg" class="help-inline"></span>
+</div>
+</div>
+<script type="text/javascript" charset="utf-8">
+$("#input_port").keyup(function() {
+    $.ajax({
+        url:'/JSON/validation/port/' + $("#input_port").val(),
+        type:'GET',
+        dataType: 'json',
+        success: function(json) {
+            $("#input_port_error_level").removeClass();
+            $("#input_port_error_level").addClass("control-group " + json.level);
+            $("#input_port_error_msg").text(json.msg);
+        }
+    });
+});
+</script>

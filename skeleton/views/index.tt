@@ -88,6 +88,20 @@ INCLUDE 'core/form/input_phone.tt' phone='+33 6 01 02 03 04'
 
 
 <hr>
+<h3>Input Port</h3>
+
+<pre>
+INCLUDE 'core/form/input_port.tt'
+</pre>
+[% INCLUDE 'core/form/input_port.tt' %]
+
+<pre>
+INCLUDE 'core/form/input_port.tt' port='12345'
+</pre>
+[% INCLUDE 'core/form/input_port.tt' port='12345' %]
+
+
+<hr>
 <h3>Select Country</h3>
 <pre>
 INCLUDE 'core/form/select_country.tt'
