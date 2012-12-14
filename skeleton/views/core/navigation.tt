@@ -1,7 +1,13 @@
 <div class="span3">
 <ul class="nav nav-list">
 [% FOREACH i IN items %]
-    <li><a href="[% i.link %]"><i class="icon-[% i.icon %]"></i> [% i.label %]</a></li>
+	[% IF i.link %]
+    	<li><a href="[% i.link %]"><i class="icon-[% i.icon %]"></i> [% i.label %]</a></li>
+	[% ELSIF i.label %]
+		<li class="nav-header">[% i.label %]</li>
+	[% ELSE %]
+		<li class="divider"></li>
+	[% END %]
 [% END %]
 </ul>
 </div>

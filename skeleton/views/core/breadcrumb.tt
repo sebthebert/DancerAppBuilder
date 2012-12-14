@@ -1,0 +1,7 @@
+[% DEFAULT divider='/' %]
+<ul class="breadcrumb">
+[% FOREACH i IN items.first(items.max-1) %]
+	<li><a href="[% i.link %]">[% i.label %]</a> <span class="divider">[% divider %]</span></li>
+[% END %]
+	<li class="active">[% items.last.label %]</li>	
+</ul>

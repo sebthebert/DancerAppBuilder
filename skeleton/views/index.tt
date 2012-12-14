@@ -1,5 +1,15 @@
 <h1>Documentation</h1>
 
+<h2>Breadcrumbs</h2>
+[% items = [ 
+	{ label => 'Top Menu', link => '#' }, 
+	{ label => 'Sub Menu', link => '#' }, 
+	{ label => 'Sub Sub Menu', link => '#' },
+	] 
+%]
+[% INCLUDE 'core/breadcrumb.tt' %]
+          
+<hr>            
 <h2>Homepage</h2>
 [% items = [
 	{ icon => 'envelope-alt', link => '/mail' },
@@ -16,6 +26,7 @@ size = 256;
 [% INCLUDE 'core/homepage.tt' %]
 
 
+<hr>
 <h2>Forms</h2>
 
 <h3>Input Account</h3>
@@ -158,8 +169,13 @@ INCLUDE 'core/message.tt' msg='If no level is specified, it takes "info" by defa
 
 <pre>
 items = [
-    { label => 'Home', icon => 'home', link => '/' },
-    { label => 'Documentation', icon => 'book', link => '/documentation' },
+	{ label => 'Header 1' },
+	{ label => 'Home', icon => 'home', link => '/' },
+	{ label => 'Documentation', icon => 'book', link => '/documentation' },
+	{ label => 'Header 2' },
+	{ label => 'Settings', icon => 'cogs', link => '/settings' },
+	{ divider => 1 },
+	{ label => 'Logout', icon => 'signout', link => '/logout' },
     ]
 </pre>
 <pre>
@@ -167,9 +183,15 @@ INCLUDE 'core/navigation.tt'
 </pre>
 [% 
 items = [
+	{ label => 'Header 1' },
     { label => 'Home', icon => 'home', link => '/' },
     { label => 'Documentation', icon => 'book', link => '/documentation' },
+    { label => 'Header 2' },
     { label => 'Settings', icon => 'cogs', link => '/settings' },
+    { divider => 1 },
+    { label => 'Logout', icon => 'signout', link => '/logout' },
     ]
 %] 
 [% INCLUDE 'core/navigation.tt' %]
+
+<hr>
