@@ -1,0 +1,60 @@
+[% DEFAULT
+	id='chart_pie_container'
+	width=600
+	height=400
+%]
+<script src="/js/highcharts.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function () {
+    var chart;
+    
+    $(document).ready(function () {
+    	// Build the chart
+        chart = new Highcharts.Chart({
+            chart: {
+                renderTo: '[% id %]',
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false
+            },
+            title: {
+                text: '[% title %]'
+            },
+            tooltip: {
+        	    pointFormat: '{series.name}: {point.percentage}%',
+            	percentageDecimals: 2
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+[% IF legend %]
+                    showInLegend: true
+[% END %]
+                }
+            },
+            series: [{
+                type: 'pie',
+                name: 'Browser share',
+                data: [
+                    ['Firefox',   45.0],
+                    ['IE',       26.8],
+                    {
+                        name: 'Chrome',
+                        y: 12.8,
+                        sliced: true,
+                        selected: true
+                    },
+                    ['Safari',    8.55],
+                    ['Opera',     6.15],
+                    ['Others',   0.7]
+                ]
+            }]
+        });
+    }); 
+});
+</script>
+<div id="[% id %]" style="width: [% width %]px; height: [% height %]px"></div>

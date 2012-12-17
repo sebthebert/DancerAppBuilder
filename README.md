@@ -34,6 +34,7 @@ public/font/fontawesome-webfont.woff
 
 public/js/bootstrap.min.js
 public/js/jquery.min.js
+public/js/highcharts.js
 
 t/
 
@@ -50,6 +51,7 @@ views/core/form/input_phone.tt
 views/core/form/input_port.tt
 views/core/form/select_country.tt
 views/core/form/select_language.tt
+views/core/chart_pie.tt
 views/core/homepage.tt
 views/core/message.tt
 views/core/navigation.tt

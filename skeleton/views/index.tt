@@ -8,7 +8,18 @@
 	] 
 %]
 [% INCLUDE 'core/breadcrumb.tt' %]
-          
+
+
+<hr>            
+<h2>Charts</h2>
+
+<h3>Chart Pie</h3>
+[% INCLUDE 'core/chart_pie.tt' width='800' height='600' 
+	title='Browser market shares at a specific website, 2010' 
+	legend=0
+%]
+
+
 <hr>            
 <h2>Homepage</h2>
 [% items = [
