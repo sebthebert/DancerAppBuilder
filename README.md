@@ -2,8 +2,8 @@
 
 Builds a Dancer Application with:
 
-* Bootstrap - http://twitter.github.com/bootstrap/
-* Font Awesome - http://fortawesome.github.com/Font-Awesome
+* [Bootstrap](http://twitter.github.com/bootstrap/)
+* [Font Awesome](http://fortawesome.github.com/Font-Awesome)
 
 The template engine configured will be Template Toolkit.
 
