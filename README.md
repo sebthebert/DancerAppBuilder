@@ -1,19 +1,19 @@
 # DancerAppBuilder
 
 Builds a Dancer Application with:
-  * Bootstrap - http://twitter.github.com/bootstrap/
-  * Font Awesome - http://fortawesome.github.com/Font-Awesome
+
+* Bootstrap - http://twitter.github.com/bootstrap/
+* Font Awesome - http://fortawesome.github.com/Font-Awesome
 
 The template engine configured will be Template Toolkit.
 
 Template Toolkit will be configured to use 'utf8' as encoding and '[%' and '%]' as opening/closing tags.
 
-
 ## Skeleton of the Dancer Application
-
 
 ### Minimal Skeleton
 
+```shell
 bin/web.pl
 
 lib/Web.pm
@@ -59,5 +59,4 @@ views/index.tt
 views/layouts/default_page.tt
 views/layouts/default_page_footer.tt
 views/layouts/default_page_header.tt
-
-
+```
